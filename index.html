@@ -1,2 +1,176 @@
 <!DOCTYPE html>
-<p>hello world!</p>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    </head>
+    <body class="body">
+        <header class="header">
+            <div class="logo">
+                <img class="shake" src="images/logo.png" alt="logo" width="35" height="35">
+            </div>
+            <div>
+                <p class="blue"><strong>QUINN WATSON</strong></p>
+            </div>
+            <div class="navigation">
+                    <div class="inline-block">
+                        <a href="#about">ABOUT</a>
+                    </div>
+                    <div class="inline-block">
+                        <a href="#skills">SKILLS</a>
+                    </div>
+                    <div class="inline-block">
+                        <a href="#work">WORK</a>
+                    </div>
+                    <div class="inline-block">
+                        <a href="#contact">CONTACT</a>
+                    </div>
+            </div>
+        </header>
+
+        <section class="title">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="blue">Case Study: North American Bear Center Mobile Website Redesign</h1>
+                    <p class="green">Prompt: In groups of three, improve the mobile version of the website of a nonprofit organization.</p>
+                </div>
+            </div>
+        </section>
+        <!--The jumbotron asset above was made using bootstrap!-->
+
+        <img class="heroimage" src="images/NABC case study hero image.png" alt="hero image">
+
+       <section class="intro">
+        <h1 class="blue">Introduction</h1>
+        <p>
+            Our group was tasked with redesigning the mobile website of a nonprofit organization over the course of three weeks. We chose the North American Bear Center for its potential for improvement. The NABC is a nonprofit organization located in Ely, Minnesota. Its mission is to take care of black bears that can’t survive on their own in the wild due, and using these animals to help replace myths and superstitions with facts about these animals. The center strives to teach visitors about bears and their behavior, ecology, and relationship with humans.
+        </p>
+        <p>
+            The Bear Center is located near the Canadian border, and reaching it is no easy feat for people who don’t live in the area. This means that the NABC’s website is its primary means of reaching out to people, and it’s crucial that this website is easy to use, pleasing to look at, and satisfies the needs of the organization. Presently, the website looks dated and unappealing and doesn’t prioritize user navigation.
+        </p>
+        <p>
+            Our mobile redesign prioritizes user navigation and the wants and needs of users as well as the organization. It does this in ways that are pleasing to the eye and simple to use. Because of the time constraints, we elected to focus on the aspect of the site that we believed would be most important: donations. Since the website is the most accessible way for people to support the NABC, we agreed that we should focus on making donations easy to give.
+        </p>
+        <p>
+            It should be mentioned that while we did reach out to the NABC through their contact info given on the website, we received no response from them over the course of the four weeks that we worked on this.
+        </p>
+       </section>
+
+       <section class="research">
+        <h1 class="blue">Research</h1>
+        <p>
+            We asked several people to navigate the desktop and mobile versions of the NABC website, and to walk us through their thought processes as they did. We used their opinions and experiences to formulate what needed the most changes for our redesign.
+        </p>
+        <p>
+            Some specific problems were:
+        </p>
+        <ul>
+            <li>Colors were unattractive.</li>
+            <li>Large images with small text underneath made it hard to notice the labels and captions.</li>
+            <li>Gift shop preview section was difficult to use, with the image carousel having issues rotating.
+                <ul>
+                    <li>In the mobile version, the carousel only shows a single item at a time, with the meatball menu below it taking up nearly the entire screen.</li>
+                </ul>
+            </li>
+            <li>Users liked seeing pictures of the center and its animals.</li>
+            <li>Loved the live camera feeds of the bear enclosures.</li>
+            <li>Enjoyed how many educational articles about bears were available on the website.</li>
+        </ul>
+        <p>
+            While much of this couldn’t be used for the parts of the website that we were focusing on redesigning, it gave us lots of ideas for what to include and fix about the parts we were focusing on.
+        </p>
+        <p>Using the data collected, we came up with the following user insight and problem statement:</p>
+        <p class="quote">
+            <i>The North American Bear Center’s social media presence struggles to draw much attention both online and in person from visitors and its style is fairly dated.</i>
+        </p>
+        <p class="quote">
+            <i>In hopes to help grow the organization's efforts, our goal is to update the site's layout to fit a more modern aesthetic, to allow users to research and donate easier. This will make their online experience more enjoyable and create a better future for the NABC.</i>
+        </p>
+        </section>
+
+        <section class="image">
+        <img src="images/og website home.png" alt="screenshots of the mobile NABC website">
+        <p>Screenshots of the NABC's mobile website.</p>
+        </section>
+        
+        <section class="concepts">
+            <h1 class="blue">Conceptualizing</h1>
+            <p>
+                The homepage was what needed the most overhauling, I started out with sketching an idea for the layout. Everything was so cluttered and messy in the original page, I wanted to condense and organize it in a way that was easy to navigate and pleasing to look at. I wasn’t sure what colors, themes, or vibes I wanted the site to have yet, so I just wanted to focus on the layout of everything.
+            </p>
+            <p>
+                Here we have my original sketch and my recreation of it in Figma:
+            </p>
+        </section>
+
+        <section class="image">
+            <img src="images/sketch and lofi mockup.png" alt="mobile sketch and digital recreation">
+        </section>
+
+        <section class="home">
+            <h1 class="blue">Home Page</h1>
+            <p>
+                I used the mockup as a template for my wireframe, tweaking it as I went. I made less buttons and more labeled banners with images taken from the site (this will be a common theme throughout the redesign). I moved the donation link further up on the website as opposed to the original site having it at the bottom of the page. A simplified shop preview with featured items and a link to the shop page below.
+            </p>
+            <p>
+                The black bear imagery reminded me of a cabin I stayed at as a kid, it had lots of black bear themes as well. This gave me an idea for what I wanted the site’s overall theme to be. The center itself is shown to be very cabin-looking, and so I focused on making the sites overall vibes fit a more woodsy, log cabin atmosphere. It made the website look warm, cozy, and inviting, perfect for drawing in visitors! For a color scheme, I settled with tan for the main color, with accents in shades of warm brown. A blocky font for the titles and buttons helped sell the cabin aesthetic, and soon I had a homepage wireframe!
+            </p>
+        </section>
+
+        <section class="image">
+            <img src="images/home page snippets.png" alt="snippets of the redesigned home page">
+        </section>
+
+        <section class="donation">
+            <h1 class="blue">Donation Pages</h1>
+            <p>
+                The donation pages were organized well but generally unappealing to look at, so I mostly just redesigned them to fit the same layout and theme as the home page. Large pictures with small text below were replaced with more appealing imagery with text on top, and the donation menu was simplified. I didn’t make many changes to the donation form, with the exception of adding the option for users to pay through PayPal as an alternative to giving the website their credit card information.
+            </p>
+        </section>
+
+        <section class="image">
+        <img src="images/donation page comparison.png" alt="screenshots of the original donation pages and snippets from my redesign wireframe.">
+        <p>Screenshots of the original donation pages and snippets from my redesign wireframe.</p>
+        </section>
+
+        <section class="nextsteps">
+            <h1 class="blue">Next Steps</h1>
+            <p>
+                Ideally, our main goal would be to collaborate with the NABC and adjust our website based on their experiences and preferences. Our time constraints meant that we could only focus on a single, simple, user-flow, but moving forward I’d like to redesign more pages for the website and maybe even make a desktop version. I’d also like to add more interactive features such as a drop-down menu and rotating carousel for the hero image.
+            </p>
+        </section>
+
+        <section class="finalthots">
+            <h1 class="blue">Final Thoughts</h1>
+            <p>
+                I had a lot of fun designing this website, and enjoyed tinkering with different layouts and color schemes until I found what worked best. This was a great learning experience for me, and probably one of my favorite projects to work on so far.
+            </p>
+        </section>
+
+        <section class="backbutton">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+            </svg>
+            <a class="btn btn-primary" href="#work" role="button">Back to My Work</a>
+        
+        </section>
+    <!--The button (and arrow icon) above were made using bootstrap!-->
+        <footer>
+            <div class="footer">
+                <div class="inline-block">
+                    <a href="#about">ABOUT</a>
+                </div>
+                <div class="inline-block">
+                    <a href="#skills">SKILLS</a>
+                </div>
+                <div class="inline-block">
+                    <a href="#work">WORK</a>
+                </div>
+                <div class="inline-block">
+                    <a href="#contact">CONTACT</a>
+                </div>
+            </div>
+        </footer>   
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>

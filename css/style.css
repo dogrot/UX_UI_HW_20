@@ -1,0 +1,193 @@
+/* BASE */
+
+.body {
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    background-color: #0C0C0C;
+    color:#20DD4A;
+    display: flex;
+    align-items: center; 
+}
+
+footer {
+    background-color: #0C0C0C;
+    color: #20DD4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    padding: 1%;
+    justify-content: flex-start;
+}
+
+.navigation {
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+/* TEXT AND COLORS */
+
+.blue {
+    color:#00D4FF
+}
+
+.green {
+    color:#20DD4A
+}
+
+.h1 {
+    color: #00D4FF;
+    text-align: center;
+}
+
+.h3 {
+    color:#20DD4A;
+    text-align: center;
+}
+
+.quote {
+    color:#20DD4A;
+    text-align: center;
+    }
+
+a {
+    color:#20DD4A;
+}
+
+/* ASSETS */
+
+.shake:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.flexcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: #20DD4A;
+}
+
+.heroimage {
+    max-width:100%;
+    max-height:100%;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.image img {
+    max-width: 80%;
+    max-height: 100%;
+}
+
+/* SECTIONS */
+
+.title {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.intro {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.research {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.concepts {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.home {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.donation {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.nextsteps {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.finalthots {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.backbutton {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #20DD4A;
+}
+
+/* MISC */
